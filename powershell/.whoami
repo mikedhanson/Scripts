@@ -1,0 +1,16 @@
+$myObject = [PSCustomObject]@{
+    Name        = 'Michael Hanson'
+    Title       = 'Endpoint Architect'
+    Location    = 'Remote'
+    Portfolio   = 'https://michaelhanson.dev/'
+    Tags        = @(
+        "Security Enthusiast",
+        "Sysadmin",
+        "Self-Hosting"
+    )
+    SocialMedia = @(
+        "https://github.com/mikedhanson",
+        "https://www.linkedin.com/in/michael-h-396129134/",
+        "https://hub.docker.com/u/mikehanson"
+    )
+}
